@@ -5,7 +5,7 @@ public class EtkinlikOneri {
         int heat;
 
         Scanner input=new Scanner(System.in);
-        System.out.println("Sıcaklığı giriniz : ");
+        System.out.print("Sıcaklığı giriniz : ");
         heat=input.nextInt();
 
         if (heat<5){
